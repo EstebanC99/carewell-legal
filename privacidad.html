@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — CareWell</title>
+<meta name="description" content="Política de privacidad de la aplicación CareWell: qué datos recolectamos, para qué los usamos, con quién se comparten y cómo ejercer tus derechos.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav class="top"><a href="index.html">Inicio</a><a href="eliminar-cuenta.html">Eliminar cuenta</a></nav>
+
+  <h1>Política de privacidad de CareWell</h1>
+  <p class="meta">Versión 1.0 · Última actualización: octubre de 2026 · Aplicación Android «CareWell» (<code>com.estecar.carewell</code>)</p>
+
+  <p>CareWell es una aplicación móvil que ayuda a las personas cuidadoras a centralizar la información de la persona bajo cuidado y a coordinar al equipo de cuidado (responsables y cuidadores). Esta política explica qué datos personales tratamos, con qué finalidad, con quién los compartimos y cómo podés ejercer tus derechos. Forma parte de los Términos y condiciones de la aplicación, que podés consultar desde <em>Configuración</em>.</p>
+
+  <div class="card">
+    <strong>En resumen:</strong> no vendemos tus datos; la imagen de tu documento de identidad no se guarda; usamos inteligencia artificial de Google Cloud (Vertex AI) solo para validar tu identidad y redactar el resumen diario, sin que esos datos se usen para entrenar modelos; y podés pedir el acceso, la rectificación o la supresión de tus datos en cualquier momento.
+  </div>
+
+  <h2>1. Responsable del tratamiento</h2>
+  <p>El responsable del tratamiento es el equipo desarrollador de CareWell, proyecto final de la carrera de Ingeniería en Sistemas de Información de la UTN, Facultad Regional Resistencia (Argentina). Para cualquier consulta o solicitud relacionada con tus datos podés escribir a <a href="mailto:CORREO_DE_CONTACTO">CORREO_DE_CONTACTO</a>.</p>
+
+  <h2>2. Datos que recolectamos</h2>
+  <p>Recolectamos solo los datos necesarios para prestar el servicio. Según cómo uses la aplicación, pueden ser:</p>
+  <table>
+    <thead><tr><th>Categoría</th><th>Datos</th><th>Origen</th></tr></thead>
+    <tbody>
+      <tr><td>Identificatorios</td><td>Nombre, apellido, número de documento, fecha de nacimiento, imagen de perfil, usuario y contraseña (almacenada de forma cifrada, nunca en texto plano).</td><td>Los ingresa la propia persona o, cuando no puede usar la app, un responsable o cuidador de su equipo.</td></tr>
+      <tr><td>De contacto</td><td>Correo electrónico y teléfono.</td><td>Idem.</td></tr>
+      <tr><td>De salud (datos sensibles)</td><td>Ficha de salud (enfermedades, alergias, antecedentes), eventos de salud, hábitos de vida, estados de ánimo, observaciones de bienestar y recomendaciones de la persona bajo cuidado.</td><td>Los cargan responsables y cuidadores según sus permisos.</td></tr>
+      <tr><td>De agenda</td><td>Eventos, recordatorios y sus ocurrencias.</td><td>Los cargan los integrantes del equipo según sus permisos.</td></tr>
+      <tr><td>De emergencia</td><td>Registro de los avisos de emergencia: persona, quién los activó, fecha, hora y descripción opcional.</td><td>Quien activa el aviso.</td></tr>
+      <tr><td>Del equipo de cuidado</td><td>Relación entre personas, rol (responsable o cuidador) y permisos otorgados.</td><td>Los administra un responsable.</td></tr>
+      <tr><td>Del dispositivo</td><td>Token de notificaciones push (Firebase Cloud Messaging), plataforma (Android), fecha de alta y de último uso.</td><td>La aplicación, al iniciar sesión.</td></tr>
+      <tr><td>Técnicos</td><td>Registros de errores y de llamadas a servicios externos, con fines de diagnóstico y seguridad del servicio.</td><td>Generados automáticamente.</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Datos de personas bajo cuidado.</strong> Una persona puede existir en CareWell sin tener cuenta propia: sus datos son cargados por quienes la cuidan. Quien los carga declara contar con el consentimiento de la persona o con la facultad legal para hacerlo (por ejemplo, como familiar o representante).</p>
+  <p><strong>Lo que no recolectamos.</strong> CareWell no accede a tu ubicación, contactos, micrófono ni a otras aplicaciones del dispositivo. No utiliza publicidad ni herramientas de analítica o seguimiento de terceros.</p>
+
+  <h2>3. Para qué usamos los datos</h2>
+  <ul>
+    <li>Crear y gestionar tu cuenta, autenticarte y verificar tu identidad y tu correo electrónico.</li>
+    <li>Permitir que el equipo de cuidado vea y gestione la información de la persona bajo cuidado, de acuerdo con el rol y los permisos de cada integrante.</li>
+    <li>Enviar notificaciones y recordatorios de agenda, y avisar al equipo ante una emergencia.</li>
+    <li>Generar el resumen diario de la persona bajo cuidado (ver sección 5).</li>
+    <li>Mantener la seguridad del servicio, detectar errores y resolver incidentes.</li>
+    <li>Cumplir obligaciones legales.</li>
+  </ul>
+  <p>No usamos tus datos para publicidad, perfilado comercial ni decisiones automatizadas con efectos jurídicos.</p>
+
+  <h2>4. Imagen del documento de identidad</h2>
+  <p>Al crear una cuenta se solicita una imagen del documento de identidad. Se usa <strong>únicamente</strong> para comprobar que los datos declarados corresponden al titular del documento y <strong>no se almacena</strong>: se procesa en el momento y se descarta. Solo se conserva la constancia de que la identidad fue validada y la fecha en que ocurrió.</p>
+  <p>Para esa comprobación, la imagen se envía a un proveedor externo de inteligencia artificial —Google Cloud, mediante su plataforma empresarial Vertex AI—, que actúa como encargado del tratamiento, la procesa en el momento y no la conserva.</p>
+
+  <h2>5. Resumen diario con inteligencia artificial</h2>
+  <p>La función de resumen diario envía al mismo proveedor el nombre de la persona bajo cuidado, junto con los eventos de salud, hábitos de vida y estados de ánimo del día y las actividades de agenda pendientes, con la única finalidad de redactar el texto que se muestra en la aplicación. Se envía solo la información necesaria para esa redacción: no se remite el historial completo de la persona ni identificadores adicionales.</p>
+  <p>El texto generado se conserva en nuestros sistemas para poder mostrarlo nuevamente durante un lapso breve sin volver a generarlo. Se guarda únicamente el resumen más reciente de cada persona —cada nueva generación reemplaza al anterior, por lo que no se construye un historial— y se elimina junto con los datos de la persona cuando esta se da de baja.</p>
+  <p>El resumen es un apoyo informativo: <strong>no constituye diagnóstico ni consejo médico</strong>. Al utilizar la aplicación prestás tu consentimiento expreso para este tratamiento.</p>
+
+  <h2>6. Proveedores que intervienen</h2>
+  <p>No vendemos ni cedemos tus datos. Solo intervienen los siguientes proveedores, necesarios para prestar el servicio:</p>
+  <ul>
+    <li><strong>Google Cloud (Vertex AI):</strong> validación de identidad y resumen diario. Conforme su documentación oficial, las consignas enviadas —incluidas las imágenes— y las respuestas generadas <strong>no se utilizan para entrenar sus modelos</strong>, y el tratamiento se rige por un acuerdo formal de tratamiento de datos (Cloud Data Processing Addendum). Estas garantías corresponden a la plataforma empresarial contratada, no al servicio gratuito de uso general. Los datos viajan por canales cifrados.</li>
+    <li><strong>Google Firebase Cloud Messaging:</strong> entrega de notificaciones push al dispositivo, usando el token del dispositivo.</li>
+    <li><strong>Proveedor de alojamiento (servidor) y de correo electrónico:</strong> almacenan y procesan los datos de la aplicación y envían los correos del servicio (verificación, recuperación de contraseña).</li>
+  </ul>
+  <p>Podemos comunicar datos a entidades gubernamentales y organismos de control cuando una norma o una orden judicial lo exija.</p>
+
+  <h2>7. Transferencias internacionales</h2>
+  <p>Algunas soluciones tecnológicas que utilizamos están alojadas en la nube por sus proveedores, por lo que es posible que los datos residan en otros países. Cuando ocurre, se emplean acuerdos contractuales que exigen el cumplimiento de estándares equivalentes de protección.</p>
+
+  <h2>8. Seguridad</h2>
+  <p>Aplicamos medidas técnicas y organizativas para proteger la confidencialidad, integridad y disponibilidad de los datos: comunicaciones cifradas (HTTPS), contraseñas almacenadas de forma cifrada, control de acceso por roles y permisos, y registro de errores para detectar incidentes. Ningún sistema es infalible; si detectáramos una vulneración que afecte tus datos, actuaremos conforme la normativa aplicable.</p>
+
+  <h2>9. Conservación y eliminación</h2>
+  <p>Conservamos tus datos durante el período de prestación del servicio y por el tiempo que indiquen las reglamentaciones nacionales.</p>
+  <p>Podés dar de baja tu cuenta desde la aplicación (<em>Configuración → Eliminar cuenta</em>) o por los medios descritos en <a href="eliminar-cuenta.html">Eliminación de cuenta y de datos</a>. La baja es <strong>lógica</strong>: perdés el acceso, se desactivan tus dispositivos y dejás de recibir notificaciones, pero tu registro puede conservarse porque forma parte del historial de otras personas a cuyo equipo de cuidado pertenecías. La <strong>supresión definitiva</strong> de tus datos personales puede solicitarse en cualquier momento según la sección 10.</p>
+
+  <h2>10. Tus derechos</h2>
+  <p>De acuerdo con la Ley 25.326 de Protección de Datos Personales (Argentina), como titular de los datos podés solicitar:</p>
+  <ul>
+    <li><strong>Información</strong> sobre la existencia de archivos, registros, bases o bancos de datos personales, sus finalidades y la identidad de sus responsables.</li>
+    <li><strong>Acceso:</strong> conocer qué información tenemos sobre vos.</li>
+    <li><strong>Rectificación:</strong> corregir datos incompletos o inexactos.</li>
+    <li><strong>Actualización:</strong> modificar datos desactualizados.</li>
+    <li><strong>Supresión:</strong> eliminar los datos que indiques.</li>
+  </ul>
+  <p>Para ejercerlos, escribinos a <a href="mailto:CORREO_DE_CONTACTO">CORREO_DE_CONTACTO</a> desde el correo asociado a tu cuenta, indicando qué derecho querés ejercer. Responderemos dentro de los plazos legales. Podés rectificar y actualizar parte de tus datos directamente desde <em>Mi perfil</em>.</p>
+  <p>La Agencia de Acceso a la Información Pública, en su carácter de órgano de control de la Ley 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan por incumplimiento de las normas sobre protección de datos personales.</p>
+
+  <h2>11. Menores de edad</h2>
+  <p>La creación de una cuenta está destinada a personas mayores de edad. Los datos de menores bajo cuidado solo pueden ser cargados por sus padres, tutores o representantes legales.</p>
+
+  <h2>12. Cambios en esta política</h2>
+  <p>Podemos modificar esta política. Las versiones se numeran y los cambios relevantes se comunicarán a través de la aplicación. La versión vigente es siempre la publicada en esta dirección.</p>
+
+  <h2>13. Contacto</h2>
+  <p>Consultas, reclamos y ejercicio de derechos: <a href="mailto:CORREO_DE_CONTACTO">CORREO_DE_CONTACTO</a>.</p>
+
+  <footer>CareWell · Proyecto final de Ingeniería en Sistemas de Información, UTN FRR.</footer>
+</main>
+</body>
+</html>
